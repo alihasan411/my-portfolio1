@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> My First Page </title>
+</head>
+<body>
+     <h1>Welcome</h1>
+     <h2>Iram</h2>
+     <p>Hy I am a teacher but i really love webdevlopment so i reaaly wants to develop intrest for this</p>
+     <a href="https://google.com">Link for Google</a>
+</body>
+<image scr="https://viaplaceholder.com/150" alt="myimage">
+  <ul>
+    <li>html</li>
+    <li>CSS</li>
+    <li>Java Script</li>
+  </ul>
+  <ol>
+    <li>Wakeup</li>
+    <li>Study</li>
+    <li>Paractice Coding</li>
+  </ol>
+</html>
+<!doctype html>
+<html>
+  <body>
+  <head>
+    <title>My 2nd Day Practice Page </title>
+  </head>
+  <h1>Welcome</h1>
+  <h2>My image</h2>
+  <image
+  src="https//via.placeholder.com/150" alt="my image">
+   <h2>My skills</h2> 
+  <ul>
+    <li>Teaching</li>
+    <li>Learning Webdevelopment</li>
+    <li>Hardworking</li>
+  </ul>
+  <ol>
+    <li>Wakeup</li>
+    <li>Teach Students</li>
+    <li>Learn Coding</li>
+  </ol>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My 2nd Day Code</title>
+    <style>
+      h1{
+        background-color: pink;
+        color:blue;
+        border:3px solid pink;
+        padding:10px;
+        margin:5px;
+      }
+      h2{
+        color: green;
+        
+      }
+      p{
+        color:green;
+        background-color:brown ;
+        padding: 15px;
+        margin: 10px;
+        border-radius:10px ;
+      }
+      button:hover{
+        background-color:  red;
+        color:yellow;
+        padding: 10px 20px;
+        margin: 10px;
+        border:3px solid purple;
+        border-radius: 5px;
+        transform: scale (1.1);
+        transition: (0.3s);
+      }
+      .container{
+       display: flex;
+        gap:10px;
+      }
+      @media(min-width:600px){
+        .box{
+          flex: 1 1 30%;
+        }
+      }
+      @media(min-width:900px){
+        .box{
+          flex: 1 1 22%;
+        }
+      }
+      .box:hover{
+        background-color: pink;
+        color: yellow;
+        padding: 20px;
+        border: 3px solid red;
+        flex: 1 1 45%;
+        text-align: center;
+        transition: 0.3s
+        box-shadow: 0 5px 15px gray;
+        /*justify-content: center;
+        /*align-self: center;
+        display:flex;*/
+      }
+     /* .container{
+        display: flex;
+        justify-content: center;
+      }
+      .container{
+        display: flex;
+        justify-content: flex-start;
+      }
+      .container{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .container{
+        display:flex;
+        justify-content: space-between;
+      }
+      .container{
+        display: flex;
+        justify-content: space-around;
+      }*/
+      .container{
+        display: flex;
+        flex-wrap: wrap;*/
+        gap:15px;
+        align-items: center;
+      }
+      .container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+       /* display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;*/
+      }
+      /*.container{
+        display: flex;
+        /*justify-content: center;
+        align-items: flex-start;
+        height: 4000px;*/
+        gap: 20px;
+        flex-wrap: wrap;
+       /*flex-direction: column;*/
+       /*flex-direction: row;*/
+     /*  flex-flow: row-revrse;*/
+      }*/
+      .box{
+       flex: 1 1 28%;
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+       /* border: 1px solid red;
+        /*justify-content: center;
+        align-self: center;
+        width: 100px;
+        height: 120px;
+       /* display:flex;
+      }
+     /* .box:nth-child(2){
+        /*height: 120px;*/
+        /*flex-grow: 2;
+      }*/
+      .active-box{
+        background-color: purple;
+        color:pink;
+        border: 4px solid yellow;
+        transform: scale(1.1);
+      }
+      /*.box:nth-child(3){
+        height: 120px;
+      }
+      .box:nth-child(4){
+        height: 120px;
+      }
+     .box:nth-child(5){
+        height: 120px;
+      }
+      .box:nth-child(6){   
+        height: 120px;
+      }*/
+      .popup{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+      }
+      .popup-box{
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .show{
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>This is my styled text</p>
+    <h2>My Image</h2>
+    <img 
+    src="https://via.placeholder.com/150" alt="my image">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Teaching</li>
+      <li>Learning Web Dev</li>
+      <li>Hardworking</li>
+    </ul>
+    <h2>My Daily Routine</h2>
+    <ol>
+      <li>Wakeup</li>
+      <li>Teach Students</li>
+      <li>Learn Code</li>
+    </ol>
+    <a href="https://google.com" target= "_blank">Go to Google</a>
+    <button onclick="openPopup()">OpenPopup</button>
+    <div class="popup" id="popup">
+      <div class="popup-box">
+        <h3>Hello </h3>
+        <p>This is a popup</p>
+        <button onclick="closepopup()">Close</button>
+        </div>
+    </div>
+    <button>Learn More</button>
+    <div class="container">
+      <div class="box" onclick="selectBox(this)">Box 1</div>
+      <div class="box" onclick="selcectBox(this)"=>Box 2</div>
+      <div class="box" onclick="SelectBox(this)">Box 3</div>
+      <div class="box" onclick="selectBox(this)">Box 4</div>
+      <div class="box" onclick="selectBox(this)">Box 5</div>
+      <div class="box" onclick="SelectBox(this)">Box 6</div>
+    </div>
+    <script>
+      function changeBox(el){
+        el.style.background-color="green"
+      }
+      function SelectBox (el) {
+        let boxes =
+        document.queryselectorAll(".box")
+        boxes.forEach(box=>
+        box.classList.remove("active"))
+        el.classList.add("active")
+         }
+    </script>
+    <script>
+      function openPopup(){
+        document.getElementById("popup").classList.add("show");
+      }
+      function closepopup(){
+        document.getElementById("popup").classList.remove("show")
+      }
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>This is my first mini challange </title>
+    <style>
+      .card-container{
+        display:flex;
+        gap: 10px;
+        }
+       .card{
+         background-color: lightblue;
+         padding: 20px;
+         cursor: pointer;
+       } 
+       .popup{
+         display: none;
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100px;
+         height: 100px;
+         background-color: rgba(0,0,0,0.5);
+         justify-content: center;
+         align-items: center;
+         }
+         .popup-box
+    </style>
+  </head>
+  <div class="card-container">
+    <div class="card">
+    <img src="https:// via.placeholder.com/150" alt="">
+    <h3>Web Design</h3>
+    <p>Learn modern web Design</p>
+    <button>View</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150"alt="">
+        <h3>JavaScript</h3>
+        <p>Make your site interactive</p>
+        <button>View</button>
+      </div>
+      <div class="card">
+        <img src=https://via.placeholder.com/150alt="">
+        <h3>CSS</h3>
+        <p>style your website</p>
+       </div>
+    </div>
+</html>
